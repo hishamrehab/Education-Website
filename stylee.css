@@ -122,10 +122,10 @@ html {
     width: 550px;
   }
 }
+
 /* end global rules */
 
 /* .hero-section */
-
 .hero-section {
   background-color: hsl(38, 100%, 98%);
 }
@@ -148,8 +148,9 @@ html {
 .hero-section-main-content .hero-section-content {
   max-width: 500px;
 }
-.hero-section .hero-section-content h4 {
+.hero-section .hero-section-content h3 {
   color: hsl(357, 37%, 62%);
+  font-size: 20px;
 }
 
 .hero-section .hero-section-content h1 {
@@ -161,8 +162,8 @@ html {
 .hero-section .hero-section-content p {
   color: hsl(203, 30%, 26%);
   line-height: 1.2;
-  font-size: 23px;
-  margin-top: 25px;
+  font-size: 22px;
+  margin-top: 20px;
 }
 
 .hero-section-image {
@@ -174,14 +175,142 @@ html {
   border-radius: 20px;
 }
 
-/* main section */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-section {
+  }
+  .hero-section .container {
+  }
 
+  .hero-section-main-content {
+  }
+
+  .hero-section-main-content .hero-section-content {
+  }
+  .hero-section .hero-section-content h3 {
+    font-size: 30px;
+  }
+
+  .hero-section .hero-section-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-section .hero-section-content p {
+  }
+
+  .hero-section-image {
+    margin-top: 20px;
+    display: none;
+  }
+
+  .hero-section-image img {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    margin: auto;
+    padding-left: 50px;
+  }
+  .hero-section .container {
+  }
+
+  .hero-section-main-content {
+  }
+
+  .hero-section-main-content .hero-section-content {
+    padding-top: 50px;
+  }
+  .hero-section .hero-section-content h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .hero-section .hero-section-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-section .hero-section-content p {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .hero-section-image {
+    margin-top: 20px;
+    display: none;
+  }
+
+  .hero-section-image img {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .hero-section {
+    margin: auto;
+    padding-left: 50px;
+  }
+  .hero-section .container {
+    display: flex;
+  }
+
+  .hero-section-main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .hero-section-main-content .hero-section-content {
+    padding-top: 50px;
+    max-width: 450px;
+    padding-right: 20px;
+  }
+  .hero-section .hero-section-content h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .hero-section .hero-section-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-section .hero-section-content p {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .hero-section-image {
+    margin-top: 20px;
+  }
+
+  .hero-section-image img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* ./hero section */
+
+/* main section */
 .main-section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   flex-direction: row;
   align-items: flex-start;
   padding-top: 100px;
@@ -203,6 +332,10 @@ html {
     align-content: center;
     flex-direction: column;
   }
+
+  .main-section .card {
+    margin-bottom: 25px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -214,9 +347,12 @@ html {
   .main-section .main-section-title {
     margin-top: 1rem;
   }
+  .main-section .card {
+    margin-bottom: 27px;
+  }
 }
-
 /* ./main-section */
+
 /* eductaion-section  */
 .education-section {
   background-color: rgba(248, 248, 248, 0.904);
@@ -268,11 +404,38 @@ html {
   transition: 0.2s ease-in-out;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .education-section {
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .education-section .container {
+  }
+  .education-section-container-content {
+  }
+
+  .education-section-container-content .education-section-content1 {
+    min-width: 95%;
+  }
+
+  .education-section-container-content .education-section-content1 h2 {
+  }
+
+  .education-section-container-content .education-section-content1 p {
+  }
+
+  .education-section-container-content .education-section-content1 button {
+  }
+  .education-section-container-content
+    .education-section-container-content
+    .education-section-content2 {
+    display: none;
+  }
+}
+
 /* ./ eductaion-section  */
-
-/* eductaion-section */
-
-/* ./eductaion-section */
 
 /* start features */
 .question {
@@ -295,6 +458,7 @@ html {
   margin: auto;
   padding-top: 50px;
 }
+
 .features .container .feat {
   padding: 10px;
   text-align: center;
@@ -328,6 +492,8 @@ html {
 }
 .portifolio .container .potifolio-content {
   display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(292px, 1fr)); */
+
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   margin-top: 80px;
@@ -342,20 +508,55 @@ html {
 }
 .portifolio .container .potifolio-content .card img {
   width: 100%;
+  margin-bottom: 20px;
 }
 .portifolio .container .potifolio-content .card .info {
   padding: 20px;
 }
 .portifolio .container .potifolio-content .card .info h3 {
-  margin: 0;
+  margin-bottom: 10px;
 }
 .portifolio .container .potifolio-content .card .info p {
   color: #777;
   line-height: 1.8;
   margin: 0;
+  font-size: 17px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .portifolio .container .potifolio-content .card {
+    margin-bottom: 30px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .portifolio {
+  }
+  .portifolio .container .potifolio-content {
+  }
+
+  .portifolio .container .potifolio-content .card {
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  .portifolio .container .potifolio-content .card img {
+  }
+  .portifolio .container .potifolio-content .card .info {
+  }
+  .portifolio .container .potifolio-content .card .info h3 {
+  }
+  .portifolio .container .potifolio-content .card .info p {
+    font-size: 20px;
+  }
 }
 
 /* end-portefolio */
+
+
+
+
+/* shapters-section */
 
 .shapters {
   background-color: hsl(20, 43%, 93%);
