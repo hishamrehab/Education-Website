@@ -45,22 +45,35 @@ html {
   scale: 1.1;
 }
 
+.shapters .chapter-section-heading {
+  padding-bottom: 40px;
+}
+.shapters .chapter-section-heading p {
+  text-align: center;
+  font-size: 35px;
+}
+.shapters .chapter-section-heading h2 {
+}
+
 /* start components */
 .special-heading {
   text-align: center;
-  color: #bdc1c4;
-  font-size: 100px;
-  font-weight: 800;
-  letter-spacing: -3px;
-  margin: 0;
-  padding: 0;
+  color: hsl(203, 30%, 26%);
+  font-size: 40px;
+
+  color: hsl(357, 37%, 62%);
+
+  padding-bottom: 50px;
+  /* padding-top: 150px;  */
 }
 
 .special-heading + p {
   margin: -30px 0 0;
   font-size: 20px;
   text-align: center;
-  color: #797979;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -111,10 +124,10 @@ html {
 }
 /* end global rules */
 
-/* .herosection */
+/* .hero-section */
 
 .hero-section {
-  background-color: hsl(20, 43%, 93%);
+  background-color: hsl(38, 100%, 98%);
 }
 .hero-section .container {
   padding-left: 15px;
@@ -171,15 +184,18 @@ html {
   margin-bottom: 1rem;
   flex-direction: row;
   align-items: flex-start;
-}
-.main-section .card {
-  width: 330px;
-  height: 500px;
-  margin: auto;
+  padding-top: 100px;
+  background-color: hsl(38, 100%, 98%);
 }
 
 .main-section .main-section-title {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-section .card {
+  width: 300px;
+  height: 500px;
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -266,20 +282,23 @@ html {
 
 .features {
   padding: var(--section-padding);
-  background-color: var(--section-backgrpund);
+  /* background-color: var(--section-backgrpund); */
+  background-color: hsl(38, 100%, 98%);
 }
 .features .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
   grid-gap: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 80%;
   margin: auto;
+  padding-top: 50px;
 }
 .features .container .feat {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  margin-top: 15px;
 }
 .features .container .feat a {
   color: var(--main-color);
@@ -287,7 +306,8 @@ html {
 }
 .features .container .feat a i {
   color: var(--main-color);
-  font-size: 40px;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
 .features .container h3 {
   font-weight: 800;
@@ -339,10 +359,10 @@ html {
 
 .shapters {
   background-color: hsl(20, 43%, 93%);
-  padding-top: 150px;
+  padding-top: 100px;
   padding-right: 10%;
   padding-left: 10%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .shapters .chapter-section-heading {
@@ -371,6 +391,7 @@ html {
   height: 230px;
   background-color: #f6f6f6;
   border-radius: 10px;
+  transition: 0.5s;
 }
 .card-book:hover {
   scale: 1.1;
@@ -397,25 +418,10 @@ html {
   padding-top: 10px;
   color: hsl(0, 0%, 42%);
 }
-
-body {
-  margin: 0;
-  padding: 0;
-}
-* {
-  font-family: sans-serif;
-}
-
+/* ./ */
 .header {
   background-color: hsl(38, 100%, 98%);
   height: 350px;
-}
-
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 80%;
-  margin: auto;
 }
 
 .header .header-parent {
@@ -471,10 +477,11 @@ body {
 }
 
 .Mamgna {
-  width: 100%;
-  height: a;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  padding-bottom: 15;
 }
 
 .Mamgna .Mamgna-items {
@@ -497,36 +504,24 @@ body {
 
 .Mamgna .Mamgna-items .learn p {
   line-height: 2;
-  color: #8d8a8a;
-}
-
-.Mamgna .Mamgna-items .learn :last-child {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 20px;
-  color: #222020;
-  font-size: 13px;
-  width: 200px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  cursor: pointer;
+  color: #4d4d4d;
 }
 
 .Mamgna .Mamgna-items .Json {
   flex-grow: 4;
   line-height: 1.4;
-  margin-left: 30px;
+  margin-left: 35px;
   position: relative;
   visibility: hidden;
 }
 
 .Mamgna .Mamgna-items .Json p {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .Mamgna .Mamgna-items .Json p i {
   padding: 8px;
-  color: rgb(31, 154, 31);
+  color: rgb(53, 54, 53);
   font-size: 18px;
 }
 
@@ -657,11 +652,13 @@ body {
 
 .section_form_items .links p {
   line-height: 2.5;
+  cursor: pointer;
 }
 
 .section_form_items .links p i {
   padding-right: 15px;
-  color: rgb(31, 154, 31);
+  font-size: 25px;
+  cursor: pointer;
 }
 
 /* footer */
@@ -684,6 +681,7 @@ body {
 
 .copy-right {
   padding: 20px;
+  line-height: 1.1;
 }
 .copy-right p {
   font-size: 20px;
