@@ -44,581 +44,653 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ./font-awesome -->
 
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-    <!-- hero section -->
-    <section class="hero-section">
-        <div class="container">
-            <div class="hero-section-main-content">
-                <div class="hero-section-content">
-                    <h3>LET'S MAKE THE BEST INVESTMENT</h3>
-                    <h1>Read More And Make Success The Result Of Perfection.</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia
-                        explicabo.</p>
-                </div>
-                <div class="hero-section-image">
-                    <img src="./images/hero-banner.png" height="596" width="431" />
-                </div>
-            </div>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <!-- Example Code -->
+
+
+    </head>
+
+    <body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
         </div>
-    </section>
-    <!-- ./hero section -->
+    </div>
+</nav>
 
 
 
 
-    <!--main-section-->
-    <section class="main-section pb-12" id="main">
-        <div class="container">
-            <!--./special-heading-->
-            <div class="main-section-title">
-                <h2 class="special-heading mb-4">Web Development</h2>
-                <p>“Great web design without functionality is like a sports car with no engine.”</p>
+
+
+
+
+
+
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-section-main-content">
+                    <div class="hero-section-content">
+                        <h3>LET'S MAKE THE BEST INVESTMENT</h3>
+                        <h1>Read More And Make Success The Result Of Perfection.</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia
+                            explicabo.</p>
+                    </div>
+                    <div class="hero-section-image">
+                        <img src="./images/hero-banner.png" height="596" width="431" />
+                    </div>
+                </div>
             </div>
-            <!--./special-heading-->
+        </section>
+        <!-- ./hero section -->
 
-            <!-- main-section -->
-            <div class="main-section">
-                <div class="card">
-                    <img class="card-img-top"
-                        src="data:image/png;base64,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"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">UI/UX Design</h5>
-                        <p class="card-text">
-                            UI UX designers create the user interface for
-                            an app, website, or other interactive media. Their work includes
-                            collaborating with product managers and engineers to gather requirements from users before
-                            designing ideas
-                            that can be
-                            communicated using storyboards.
+
+
+
+        <!--main-section-->
+        <section class="main-section pb-12" id="main">
+            <div class="container">
+                <!--./special-heading-->
+                <div class="main-section-title">
+                    <h2 class="special-heading mb-4">Web Development</h2>
+                    <p>“Great web design without functionality is like a sports car with no engine.”</p>
+                </div>
+                <!--./special-heading-->
+
+                <!-- main-section -->
+                <div class="main-section">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="data:image/png;base64,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"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">
+                                UI UX designers create the user interface for
+                                an app, website, or other interactive media. Their work includes
+                                collaborating with product managers and engineers to gather requirements from users
+                                before
+                                designing ideas
+                                that can be
+                                communicated using storyboards.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzSip0RBRKeOvJQ8OAWZEW7qV2CdUOSS4A-Q&usqp=CAU"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Back End Development</h5>
+                            <p class="card-text">Back-end developers are the experts who build
+                                and maintain the mechanisms that process data and perform actions on
+                                websites. Unlike front-end developers, who control everything you can see on a website,
+                                back-end
+                                developers are involved
+                                in data storage, security, and other server-side functions that you cannot see.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIkCoGAZdHZHbGsxKIaNUPizdlf5EO99MYg&usqp=CAU"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Front End Development</h5>
+                            <p class="card-text">A Front-End Developer is someone who creates
+                                websites and web applications. The difference between Front-End and
+                                Back-End is that Front-End refers to how a web page looks, while back-end refers to how
+                                it
+                                works. You can
+                                think of
+                                Front-End as client-side and Back-End as server-side.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mainsection -->
+
+
+
+
+        <!-- eductaion-section -->
+        <section class="education-section">
+            <div class="container">
+                <div class="education-section-container">
+                    <div class="education-section-container-content">
+                        <div class="education-section-content1">
+                            <h2>Start Your Future Education</h2>
+                            <p>Credibly redefine distinctive total linkage vis-a-vis multifunction data.
+                                Phosphorescently
+                                impact
+                                goal-oriented
+                                strategic</p>
+                            <button>Discover More</button>
+                        </div>
+                        <div class="education-section-content2">
+                            <img src="./images/hero-banner (1).png" width="500px" height="500px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ./eductaion-section -->
+
+
+        <!--start features-->
+        <div class="features">
+            <h1 class="mb-2 text-3xl font-extrabold text-600 question">What Web Solution Do You Need?</h1>
+            <div class="container">
+
+                <!-- taiwand cards -->
+                <div
+                    class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="feat">
+                        <a><i class="fa-solid fa-network-wired"></i></a>
+                        <a href="#">
+
+                            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                ui ux designer
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+                            UX and UI design play related, but different roles in a product’s development. UI design
+                            involves
+                            the look
+                            of
+                            a product
+                            — namely, the visual components and interactive elements that contribute to a strong user
+                            experience.
+                            Meanwhile, UX
+                            design focuses on the overarching feel of the product or service and the components that
+                            will
+                            lead
+                            to a
+                            meaningful,
+                            relevant experience for users.
                         </p>
+
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzSip0RBRKeOvJQ8OAWZEW7qV2CdUOSS4A-Q&usqp=CAU"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Back End Development</h5>
-                        <p class="card-text">Back-end developers are the experts who build
-                            and maintain the mechanisms that process data and perform actions on
-                            websites. Unlike front-end developers, who control everything you can see on a website,
-                            back-end
-                            developers are involved
-                            in data storage, security, and other server-side functions that you cannot see.
+
+                <div
+                    class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="feat">
+                        <a><i class="fa-solid fa-code-branch"></i></a>
+                        <a href="#">
+
+                            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                Back-End Developer
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+                            A back-end developer is a specialist focused on the unseen yet crucial aspects of web
+                            development.
+                            Responsible for
+                            ensuring that the website or application operates efficiently, these professionals focus on
+                            servers,
+                            databases, and
+                            application logic. Their tasks range from developing systems and processes, maintaining
+                            databases,
+                            fixing
+                            bugs, managing
+                            APIs, to enhancing security measures.
                         </p>
+
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIkCoGAZdHZHbGsxKIaNUPizdlf5EO99MYg&usqp=CAU"
-                        alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Front End Development</h5>
-                        <p class="card-text">A Front-End Developer is someone who creates
-                            websites and web applications. The difference between Front-End and
-                            Back-End is that Front-End refers to how a web page looks, while back-end refers to how it
-                            works. You can
-                            think of
-                            Front-End as client-side and Back-End as server-side.
+
+                <div
+                    class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="feat">
+                        <a><i class="fa-solid fa-code"></i></a>
+                        <a href="#">
+
+                            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                Front-end developer
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+                            The demand and flexibility of this position translate into many career opportunities across
+                            various
+                            industries and
+                            locations. Whether that means working with a non-profit organization, starting your own
+                            freelance
+                            business,
+                            or
+                            being an
+                            in-house developer for a company, you’ll likely have the chance to find a role that fits
+                            your
+                            interests.
                         </p>
+
+                    </div>
+                </div>
+
+
+                <!-- ./tailwand.css -->
+
+
+            </div>
+        </div>
+        <!--end features-->
+
+
+
+
+        <!---portfolio-section-->
+        <div class="portifolio" id="portifolio">
+            <div class="container">
+                <!--special-heading-->
+                <h2 class="special-heading">Portifolio</h2>
+                <!--./special-heading-->
+                <p>if you do it right,you will last forever</p>
+                <div class="potifolio-content">
+                    <div class="card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ri7PUVoM3PYh7bWI54P_-0bJpO8wm0NUnQ&usqp=CAU">
+                        <div class="info">
+                            <h3>Restaurant Menu</h3>
+                            <p>Consider including a restaurant menu in your portfolio. You can accomplish this by
+                                converting
+                                the
+                                menu of
+                                a favorite
+                                restaurant into a website and app. Concentrate on the fundamentals of this project. For
+                                quick
+                                visual
+                                perception, combine
+                                highly readable copy with simple graphics.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9u-ic-YMX71gSZEAnajq_x876JydTQ7RCQ&usqp=CAUi">
+                        <div class="info">
+                            <h3>A User Authentication System</h3>
+                            <p>In this project, you’ll create a signup or login system for users on a website. The
+                                login/signup
+                                project
+                                is important
+                                because many organizations’ websites have an authentication layer embedded in them.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpPs_cWDHKLvC45gy0btz4sNfD9LOArjcdA&usqp=CAU">
+                        <div class="info">
+                            <h3>Calendar Viewer Component</h3>
+                            <p>In this frontend project, you'll build a Calendar Viewer Component from scratch. This
+                                project
+                                is
+                                perfect
+                                for you if you've been learning JavaScript and want to take your JavaScript skills to
+                                the
+                                next
+                                level by
+                                building a real-world project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--./container-->
+        </div>
+        <!--end-portfolio-->
+
+
+
+
+
+        <!-- shapters-section -->
+        <div class="shapters">
+            <div class="container">
+                <div class="chapter-section-heading">
+                    <p>CHAPTERS</p>
+                    <h2>Chapters we've covered</h2>
+                </div>
+
+                <diV class="chapter-section-content">
+                    <div class="card-book">
+                        <div class="card-book-content">
+                            <p class="title">Chapter 01</p>
+                            <h3>Getting started</h3>
+                            <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod
+                                sit
+                                amet
+                                aspernatur minima
+                                deleniti.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card-book">
+                        <div class="card-book-content">
+                            <p class="title">Chapter 01</p>
+                            <h3>Getting started</h3>
+                            <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod
+                                sit
+                                amet
+                                aspernatur minima
+                                deleniti.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card-book">
+                        <div class="card-book-content">
+                            <p class="title">Chapter 01</p>
+                            <h3>Getting started</h3>
+                            <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod
+                                sit
+                                amet
+                                aspernatur minima
+                                deleniti.</p>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card-book">
+                        <div class="card-book-content">
+                            <p class="title">Chapter 01</p>
+                            <h3>Getting started</h3>
+                            <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod
+                                sit
+                                amet
+                                aspernatur minima
+                                deleniti.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-book">
+                        <div class="card-book-content">
+                            <p class="title">Chapter 01</p>
+                            <h3>Getting started</h3>
+                            <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod
+                                sit
+                                amet
+                                aspernatur minima
+                                deleniti.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-book">
+                        <div class="card-book-content">
+                            <p class="title">Chapter 01</p>
+                            <h3>Getting started</h3>
+                            <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod
+                                sit
+                                amet
+                                aspernatur minima
+                                deleniti.</p>
+                        </div>
+
+                    </div>
+
+                </diV>
+            </div>
+        </div>
+        <!-- shapters-section -->
+
+
+
+
+        <!--  Human Capital-->
+        <div class="Mamgna">
+            <div class="container">
+                <div class="Mamgna-items">
+                    <div class="learn">
+                        <h3>Professionally scale cross functional human capital and extensive technology.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quos incidunt illum
+                            earum
+                            architecto maxime nam, laboriosam iure magnam quam deleniti, veniam cum fuga veritatis
+                            velit,
+                            modi deserunt quod ducimus.</p>
+                        <button id="button2" class="button">learn more</button>
+                    </div>
+                    <div class="Json" id="one">
+                        <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
+                        <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
+                        <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
+                        <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
+                        <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
+                        <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- mainsection -->
+        <!-- ./Human Capital-->
 
 
+        <!--  Popular Departments-->
+        <div class="popular-departments">
+            <div class="container">
 
 
-    <!-- eductaion-section -->
-    <section class="education-section">
-        <div class="container">
-            <div class="education-section-container">
-                <div class="education-section-container-content">
-                    <div class="education-section-content1">
-                        <h2>Start Your Future Education</h2>
-                        <p>Credibly redefine distinctive total linkage vis-a-vis multifunction data. Phosphorescently
-                            impact
-                            goal-oriented
-                            strategic</p>
-                        <button>Discover More</button>
+                <h1 class="popular-departments-heading">We Have Most of Popular Departments</h1>
+
+                <div class="popular-departments_items">
+                    <div id="image" class="div1">
+                        <img onmouseout="onMouseout()" src="./images/depertment-1.png">
                     </div>
-                    <div class="education-section-content2">
-                        <img src="./images/hero-banner (1).png" width="500px" height="500px" />
+                    <div class="div2">
+                        <h2>Artificial Intelligence</h2>
+                        <p>Assertively parallel task synergistic deliverables after high-quality.</p>
+                        <button class="button">
+                            <span>Learn More</span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+                        <p>you hovered :<span id="img1"></span></p>
+                    </div>
+                </div>
+
+
+
+                <div class="popular-departments_items">
+                    <div id="image" class="div1">
+                        <img onmouseout="onMouseHover()" src="images/depertment-2.png">
+                    </div>
+                    <div class="div2">
+                        <h2>Civil Engineering</h2>
+                        <p>Assertively parallel task synergistic deliverables after high-quality..</p>
+                        <button class="button">
+                            <span>Learn More</span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+                        <p>you hovered :<span id="img2"></span></p>
+                    </div>
+                </div>
+
+                <div class="popular-departments_items">
+                    <div id="image" class="div1">
+                        <img onmouseout="onMouseMove()" src="images/depertment-3.png">
+                    </div>
+                    <div class="div2">
+                        <h2>Business Studies</h2>
+                        <p>Assertively parallel task synergistic deliverables after high-quality.</p>
+                        <button class="button">
+                            <span>Learn More</span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+                        <p>you hovered :<span id="img3"></span></p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- ./eductaion-section -->
 
 
-    <!--start features-->
-    <div class="features">
-        <h1 class="mb-2 text-3xl font-extrabold text-600 question">What Web Solution Do You Need?</h1>
-        <div class="container">
 
-            <!-- taiwand cards -->
-            <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div class="feat">
-                    <a><i class="fa-solid fa-network-wired"></i></a>
-                    <a href="#">
-
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                            ui ux designer
-                        </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                        UX and UI design play related, but different roles in a product’s development. UI design
-                        involves
-                        the look
-                        of
-                        a product
-                        — namely, the visual components and interactive elements that contribute to a strong user
-                        experience.
-                        Meanwhile, UX
-                        design focuses on the overarching feel of the product or service and the components that will
-                        lead
-                        to a
-                        meaningful,
-                        relevant experience for users.
-                    </p>
-
+        <!-- FamousTeacherSecton -->
+        <section class="famous-teacher">
+            <div class="container">
+                <div class="famous-section-header">
+                    <h2>Introduce with Our Famous Teacher</h2>
+                    <button class="button">View All Teachers</button>
                 </div>
-            </div>
+                <div class="famous-section-container">
 
-
-            <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div class="feat">
-                    <a><i class="fa-solid fa-code-branch"></i></a>
-                    <a href="#">
-
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                            Back-End Developer
-                        </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                        A back-end developer is a specialist focused on the unseen yet crucial aspects of web
-                        development.
-                        Responsible for
-                        ensuring that the website or application operates efficiently, these professionals focus on
-                        servers,
-                        databases, and
-                        application logic. Their tasks range from developing systems and processes, maintaining
-                        databases,
-                        fixing
-                        bugs, managing
-                        APIs, to enhancing security measures.
-                    </p>
-
-                </div>
-            </div>
-
-
-            <div
-                class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div class="feat">
-                    <a><i class="fa-solid fa-code"></i></a>
-                    <a href="#">
-
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                            Front-end developer
-                        </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                        The demand and flexibility of this position translate into many career opportunities across
-                        various
-                        industries and
-                        locations. Whether that means working with a non-profit organization, starting your own
-                        freelance
-                        business,
-                        or
-                        being an
-                        in-house developer for a company, you’ll likely have the chance to find a role that fits your
-                        interests.
-                    </p>
-
-                </div>
-            </div>
-
-
-            <!-- ./tailwand.css -->
-
-
-        </div>
-    </div>
-    <!--end features-->
-
-
-
-
-    <!---portfolio-section-->
-    <div class="portifolio" id="portifolio">
-        <div class="container">
-            <!--special-heading-->
-            <h2 class="special-heading">Portifolio</h2>
-            <!--./special-heading-->
-            <p>if you do it right,you will last forever</p>
-            <div class="potifolio-content">
-                <div class="card">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ri7PUVoM3PYh7bWI54P_-0bJpO8wm0NUnQ&usqp=CAU">
-                    <div class="info">
-                        <h3>Restaurant Menu</h3>
-                        <p>Consider including a restaurant menu in your portfolio. You can accomplish this by converting
-                            the
-                            menu of
-                            a favorite
-                            restaurant into a website and app. Concentrate on the fundamentals of this project. For
-                            quick
-                            visual
-                            perception, combine
-                            highly readable copy with simple graphics.</p>
+                    <div class="famous-section-content">
+                        <img src="./images/instructor-1.png" />
+                        <h2>Shaapir Prio</h2>
+                        <p>Assistant Director</p>
+                        <div class="famous-teacher-icons">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9u-ic-YMX71gSZEAnajq_x876JydTQ7RCQ&usqp=CAUi">
-                    <div class="info">
-                        <h3>A User Authentication System</h3>
-                        <p>In this project, you’ll create a signup or login system for users on a website. The
-                            login/signup
-                            project
-                            is important
-                            because many organizations’ websites have an authentication layer embedded in them.</p>
+
+
+                    <div class="famous-section-content">
+                        <img src="./images/instructor-2.png" />
+                        <h2>Shaapir Prio</h2>
+                        <p>Assistant Director</p>
+                        <div class="famous-teacher-icons">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpPs_cWDHKLvC45gy0btz4sNfD9LOArjcdA&usqp=CAU">
-                    <div class="info">
-                        <h3>Calendar Viewer Component</h3>
-                        <p>In this frontend project, you'll build a Calendar Viewer Component from scratch. This project
-                            is
-                            perfect
-                            for you if you've been learning JavaScript and want to take your JavaScript skills to the
-                            next
-                            level by
-                            building a real-world project.</p>
+
+
+
+
+
+
+                    <div class="famous-section-content">
+                        <img src="./images/instructor-3.png" />
+                        <h2>Shaapir Prio</h2>
+                        <p>Assistant Director</p>
+                        <div class="famous-teacher-icons">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                        </div>
                     </div>
+
                 </div>
             </div>
-        </div> <!--./container-->
-    </div>
-    <!--end-portfolio-->
+        </section>
+        <!-- ./FamousTeacherSecton -->
 
 
 
 
 
-    <!-- shapters-section -->
-    <div class="shapters">
-
-        <div class="chapter-section-heading">
-            <p>CHAPTERS</p>
-            <h2>Chapters we've covered</h2>
-        </div>
-
-        <diV class="chapter-section-content">
-            <div class="card-book">
-                <div class="card-book-content">
-                    <p class="title">Chapter 01</p>
-                    <h3>Getting started</h3>
-                    <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet
-                        aspernatur minima
-                        deleniti.</p>
-                </div>
-
-            </div>
-
-            <div class="card-book">
-                <div class="card-book-content">
-                    <p class="title">Chapter 01</p>
-                    <h3>Getting started</h3>
-                    <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet
-                        aspernatur minima
-                        deleniti.</p>
-                </div>
-
-            </div>
-
-            <div class="card-book">
-                <div class="card-book-content">
-                    <p class="title">Chapter 01</p>
-                    <h3>Getting started</h3>
-                    <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet
-                        aspernatur minima
-                        deleniti.</p>
-                </div>
-
-            </div>
-
-
-
-            <div class="card-book">
-                <div class="card-book-content">
-                    <p class="title">Chapter 01</p>
-                    <h3>Getting started</h3>
-                    <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet
-                        aspernatur minima
-                        deleniti.</p>
-                </div>
-
-            </div>
-
-
-            <div class="card-book">
-                <div class="card-book-content">
-                    <p class="title">Chapter 01</p>
-                    <h3>Getting started</h3>
-                    <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet
-                        aspernatur minima
-                        deleniti.</p>
-                </div>
-
-            </div>
-
-
-            <div class="card-book">
-                <div class="card-book-content">
-                    <p class="title">Chapter 01</p>
-                    <h3>Getting started</h3>
-                    <p class="desription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet
-                        aspernatur minima
-                        deleniti.</p>
-                </div>
-
-            </div>
-
-        </diV>
-
-    </div>
-    <!-- shapters-section -->
 
 
 
 
-    <!--  Human Capital-->
-    <div class="Mamgna">
-        <div class="container">
-            <div class="Mamgna-items">
-                <div class="learn">
-                    <h3>Professionally scale cross functional human capital and extensive technology.</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quos incidunt illum earum
-                        architecto maxime nam, laboriosam iure magnam quam deleniti, veniam cum fuga veritatis velit,
-                        modi deserunt quod ducimus.</p>
-                    <button id="button2" class="button">learn more</button>
-                </div>
-                <div class="Json" id="one">
-                    <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
-                    <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
-                    <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
-                    <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
-                    <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
-                    <P><i class="fa-solid fa-check fa-2X"></i>Ipson nisl send cursus magina</P>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ./Human Capital-->
-
-
-    <!--  Popular Departments-->
-    <div class="popular-departments">
-        <div class="container">
-
-
-            <h1 class="popular-departments-heading">We Have Most of Popular Departments</h1>
-
-            <div class="popular-departments_items">
-                <div id="image" class="div1">
-                    <img onmouseout="onMouseout()" src="./images/depertment-1.png">
-                </div>
-                <div class="div2">
-                    <h2>Artificial Intelligence</h2>
-                    <p>Assertively parallel task synergistic deliverables after high-quality.</p>
-                    <button class="button">
-                        <span>Learn More</span>
-                        <span><i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
-                    <p>you hovered :<span id="img1"></span></p>
-                </div>
-            </div>
 
 
 
-            <div class="popular-departments_items">
-                <div id="image" class="div1">
-                    <img onmouseout="onMouseHover()" src="images/depertment-2.png">
-                </div>
-                <div class="div2">
-                    <h2>Civil Engineering</h2>
-                    <p>Assertively parallel task synergistic deliverables after high-quality..</p>
-                    <button class="button">
-                        <span>Learn More</span>
-                        <span><i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
-                    <p>you hovered :<span id="img2"></span></p>
-                </div>
-            </div>
-
-            <div class="popular-departments_items">
-                <div id="image" class="div1">
-                    <img onmouseout="onMouseMove()" src="images/depertment-3.png">
-                </div>
-                <div class="div2">
-                    <h2>Business Studies</h2>
-                    <p>Assertively parallel task synergistic deliverables after high-quality.</p>
-                    <button class="button">
-                        <span>Learn More</span>
-                        <span><i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
-                    <p>you hovered :<span id="img3"></span></p>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
-    <!-- FamousTeacherSecton -->
-    <section class="famous-teacher">
-        <div class="container">
-            <div class="famous-section-header">
-                <h2>Introduce with Our Famous Teacher</h2>
-                <button class="button">View All Teachers</button>
-            </div>
-            <div class="famous-section-container">
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
 
-                <div class="famous-section-content">
-                    <img src="./images/instructor-1.png" />
-                    <h2>Shaapir Prio</h2>
-                    <p>Assistant Director</p>
-                    <div class="famous-teacher-icons">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-sharp fa-solid fa-house"></i>
+
+                    <div class="footer-flex-container">
+                        <h2>Services</h2>
+                        <p>Design</p>
+                        <p>Development</p>
+                        <p>Core Services</p>
+                        <p>Marketing</p>
+                        <p>Content Writing</p>
                     </div>
-                </div>
-
-
-                <div class="famous-section-content">
-                    <img src="./images/instructor-2.png" />
-                    <h2>Shaapir Prio</h2>
-                    <p>Assistant Director</p>
-                    <div class="famous-teacher-icons">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-sharp fa-solid fa-house"></i>
+                    <div class="footer-flex-container">
+                        <h2>Company</h2>
+                        <p>Contact Us</p>
+                        <p>Privacy Policy</p>
+                        <p>App Download</p>
+                        <p>How It Works</p>
+                        <p>Terms & Conditions</p>
                     </div>
-                </div>
 
-
-
-
-
-
-                <div class="famous-section-content">
-                    <img src="./images/instructor-3.png" />
-                    <h2>Shaapir Prio</h2>
-                    <p>Assistant Director</p>
-                    <div class="famous-teacher-icons">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-sharp fa-solid fa-house"></i>
+                    <div class="footer-flex-container">
+                        <h2>Job Info</h2>
+                        <p>Select</p>
+                        <p>Services</p>
+                        <p>Payment</p>
+                        <p>App Download</p>
+                        <p>How It Works</p>
                     </div>
-                </div>
 
+                    <div class="footer-flex-container">
+                        <h2>Contact</h2>
+                        <p id="clicks">
+
+                            <i class="fa-brands fa-twitter" onclick="clc()"></i>twitter
+                            com/united-tid
+                        </p>
+                        <p id="button12">
+                            <i class="fa-brands fa-facebook" onclick="btn()"></i>facebook.com/united-tid
+                        </p>
+                        <p id="div"><i class="fa-brands fa-instagram" onclick="div()"></i>instegram@gmail.com</p>
+                        <p id="flutter"><i class="fa-solid fa-envelope" onclick="flutter()"></i>information@hudtied tid
+                        </p>
+                        <p id=" python"><i class="fa-sharp fa-solid fa-house" onclick=" python()"></i>1234 Somewhere
+                            Road SULITE 9823 </p>
+
+                    </div>
+
+                </div>
+                <hr class="horazintal-line" />
+                <div class="copy-right">
+                    <p>© 2024 All Rights Reserved by codewithsadee.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- ./FamousTeacherSecton -->
+        </footer>
 
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-
-
-                <div class="footer-flex-container">
-                    <h2>Services</h2>
-                    <p>Design</p>
-                    <p>Development</p>
-                    <p>Core Services</p>
-                    <p>Marketing</p>
-                    <p>Content Writing</p>
-                </div>
-                <div class="footer-flex-container">
-                    <h2>Company</h2>
-                    <p>Contact Us</p>
-                    <p>Privacy Policy</p>
-                    <p>App Download</p>
-                    <p>How It Works</p>
-                    <p>Terms & Conditions</p>
-                </div>
-
-                <div class="footer-flex-container">
-                    <h2>Job Info</h2>
-                    <p>Select</p>
-                    <p>Services</p>
-                    <p>Payment</p>
-                    <p>App Download</p>
-                    <p>How It Works</p>
-                </div>
-
-                <div class="footer-flex-container">
-                    <h2>Contact</h2>
-                    <p id="clicks">
-
-                        <i class="fa-brands fa-twitter" onclick="clc()"></i>twitter
-                        com/united-tid
-                    </p>
-                    <p id="button12">
-                        <i class="fa-brands fa-facebook" onclick="btn()"></i>facebook.com/united-tid
-                    </p>
-                    <p id="div"><i class="fa-brands fa-instagram" onclick="div()"></i>instegram@gmail.com</p>
-                    <p id="flutter"><i class="fa-solid fa-envelope" onclick="flutter()"></i>information@hudtied tid
-                    </p>
-                    <p id=" python"><i class="fa-sharp fa-solid fa-house" onclick=" python()"></i>1234 Somewhere
-                        Road SULITE 9823 </p>
-
-                </div>
-
-            </div>
-            <hr class="horazintal-line" />
-            <div class="copy-right">
-                <p>© 2024 All Rights Reserved by codewithsadee.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-
-</body>
+    </body>
 
 </html>
