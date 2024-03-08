@@ -240,7 +240,7 @@ html {
 }
 .main-section .main-section-content .card {
   width: 350px;
-  min-height: 550px;
+  height: 530px;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -256,7 +256,7 @@ html {
 
 .main-section .main-section-content .card .card-body .card-text {
   font-size: 18px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 /* Medium devices (landscape tablets, 768px and up) */
 
@@ -289,7 +289,7 @@ html {
 @media only screen and (max-width: 600px) {
   .main-section .main-section-content .card {
     min-width: 100%;
-    min-height: 550px;
+    min-height: 600px;
     margin: auto;
     margin-bottom: 20px;
   }
