@@ -145,6 +145,36 @@ html {
   border-radius: 20px;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .hero-section-image {
+    display: none;
+  }
+  .hero-section-main-content .hero-section-content {
+    min-width: 100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero-section-main-content .hero-section-content {
+    width: 50%;
+  }
+  .hero-section-image img {
+    width: 250px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hero-section-image {
+    padding-right: 30px;
+  }
+  .hero-section-image img {
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+  }
+}
+
 /* ./hero section */
 
 /* main section */
@@ -188,7 +218,7 @@ html {
 }
 .main-section .main-section-content .card {
   width: 350px;
-  height: 550px;
+  min-height: 550px;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -204,6 +234,7 @@ html {
 
 .main-section .main-section-content .card .card-body .card-text {
   font-size: 18px;
+  padding-bottom: 30px;
 }
 
 /* ./main-section */
@@ -263,6 +294,28 @@ html {
   transition: 0.2s ease-in-out;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .education-section-container-content .education-section-content1 {
+    max-width: 100%;
+  }
+
+  .education-section-container-content .education-section-content2 {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .education-section-container-content .education-section-content1 {
+    max-width: 100%;
+  }
+
+  .education-section-container-content .education-section-content2 {
+    display: none;
+  }
+}
+
 /* ./ eductaion-section  */
 
 /* start features */
@@ -315,80 +368,31 @@ html {
 .features .container p {
   line-height: 1.7;
   color: #777;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .features .container {
+    min-width: 100%;
+  }
+  .features .container .feet-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 40px;
+
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .feat-card {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .features .container .feet-cards .feat {
+    width: 100%;
+  }
 }
 /* end features */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* start-portfolio*/
 .portifolio {
@@ -402,54 +406,33 @@ html {
   width: 80%;
   margin: auto;
 }
+.portifolio .special-heading {
+  font-size: 60px;
+}
+.portifolio .portifolio-desc {
+  font-size: 15px;
+}
 .portifolio .container .potifolio-content {
   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); 
-
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-gap: 40px;
   margin-top: 80px;
 }
+.portifolio .container .potifolio-content .card {
+  padding: 10px;
+}
+.portifolio .container .potifolio-content .card .info {
+  padding: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .portifolio .special-heading {
+    font-size: 40px;
+  }
+}
+
 /* end-portefolio */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* shapters-section */
 
@@ -539,32 +522,32 @@ html {
   }
 }
 
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .card-book {
+  .card-book {
     width: 240px;
   }
 }
 
 @media only screen and (max-width: 675px) {
-    .card-book {
+  .card-book {
     width: 100%;
   }
-  
-.shapters .chapter-section-heading {
-  padding-bottom: 40px;
-}
-.shapters .chapter-section-heading p {
-  text-align: center;
-  font-size: 30px;
-  color: hsl(357, 37%, 62%);
-}
-.shapters .chapter-section-heading h2 {
-  text-align: center;
-  font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+
+  .shapters .chapter-section-heading {
+    padding-bottom: 40px;
+  }
+  .shapters .chapter-section-heading p {
+    text-align: center;
+    font-size: 30px;
+    color: hsl(357, 37%, 62%);
+  }
+  .shapters .chapter-section-heading h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
 }
 
 /* ./shapters-section  */
@@ -702,7 +685,7 @@ html {
 .popular-departments .container .popular-departments-heading {
   padding: 50px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   max-width: 700px;
   font-weight: bold;
   margin: auto;
@@ -742,7 +725,8 @@ html {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .popular-departments .container .popular-departments-heading {
-    font-size: 40px;
+    font-size: 35px;
+    padding: 10px;
   }
 }
 
