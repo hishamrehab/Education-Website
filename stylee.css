@@ -145,15 +145,38 @@ html {
   border-radius: 20px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-section .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 100%;
+    margin: auto;
+  }
+  .hero-section .hero-section-content h1 {
+    font-size: 25px;
+  }
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .hero-section .container {
+    padding-left: 30px;
+    padding-right: 15px;
+    min-width: 90%;
+    margin: auto;
+  }
   .hero-section-image {
     display: none;
   }
   .hero-section-main-content .hero-section-content {
     min-width: 100%;
   }
+  .hero-section .hero-section-content h1 {
+    font-size: 30px;
+  }
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .hero-section-main-content .hero-section-content {
@@ -174,7 +197,6 @@ html {
     border-radius: 20px;
   }
 }
-
 /* ./hero section */
 
 /* main section */
@@ -235,6 +257,42 @@ html {
 .main-section .main-section-content .card .card-body .card-text {
   font-size: 18px;
   padding-bottom: 30px;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .main-section .main-section-content .card {
+    max-width: 290px;
+    min-height: 550px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .main-section .main-section-content .card {
+    max-width: 270px;
+    min-height: 550px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-section .main-section-content .card {
+    min-width: 100%;
+    min-height: 550px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-section .main-section-content .card {
+    min-width: 100%;
+    min-height: 550px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
 
 /* ./main-section */
@@ -322,6 +380,7 @@ html {
 .question {
   color: #7e7a7a;
   text-align: center;
+  width: 100%;
 }
 
 .features {
@@ -341,8 +400,6 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 40px;
-  padding-right: 10px;
-  margin: auto;
   padding-top: 50px;
 }
 
@@ -372,26 +429,42 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+  .features {
+    min-width: 100%;
+  }
   .features .container {
     min-width: 100%;
   }
   .features .container .feet-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 40px;
+    padding-top: 50px;
+    min-width: 100%;
+  }
 
+  .feat-card {
+    min-width: 100%;
+  }
+  .features .container .feet-cards .feat {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .features .container {
+  }
+  .features .container .feet-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 50px;
     margin: auto;
     padding-top: 50px;
   }
 
-  .feat-card {
-    width: 100%;
-    margin-right: 30px;
-  }
   .features .container .feet-cards .feat {
     width: 100%;
   }
 }
+
 /* end features */
 
 /* start-portfolio*/
@@ -423,6 +496,10 @@ html {
 }
 .portifolio .container .potifolio-content .card .info {
   padding: 10px;
+}
+
+.portifolio .container .potifolio-content .card .info .info-title {
+  font-size: 22px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -755,9 +832,10 @@ html {
   flex-wrap: wrap;
 }
 .famous-teacher .famous-section-header h2 {
-  font-size: 50px;
-  font-weight: bold;
-  width: 500px;
+  font-size: 45px;
+  min-width: 100%;
+  font-weight: 500;
+  text-align: center;
 }
 .famous-teacher .famous-section-container {
   display: flex;
@@ -806,8 +884,8 @@ html {
   .famous-section-container
   .famous-section-content
   .famous-teacher-icons {
-  margin-left: 60px;
-  padding-left: 30px;
+  margin-left: 50px;
+  padding-left: 20px;
   cursor: pointer;
 }
 
@@ -911,9 +989,11 @@ html {
 
   .footer .container {
     width: 90%;
+    padding-left: 25px;
   }
   .footer-content .footer-flex-container {
     margin: auto;
+    width: 100%;
   }
   .footer-content .footer-flex-container h2 {
     width: 100%;
