@@ -89,8 +89,18 @@ html {
   width: 80%;
   margin: auto;
 }
-
-/* end global rules */
+/* Navbar */
+.nav-icon {
+  font-size: 20px;
+  text-decoration: none;
+ 
+}
+.nav-icon:hover {
+  scale: 1.1;
+  text-decoration: none;
+  color: #777;
+}
+/* ./Navbar */
 
 /* .hero-section */
 .hero-section {

@@ -34,7 +34,10 @@
     <!--google-fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!--  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
 
+    <!--  -->
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -53,8 +56,68 @@
 
 <body>
 
+
+
+    <div class="container">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 pt-1.5">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./images/logo.svg" class="h-10" alt="Flowbite Logo" />
+                </a>
+
+
+                <button data-collapse-toggle="navbar-multi-level" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-multi-level" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+
+
+                <div class="hidden w-full md:block md:w-auto  pb-2" id="navbar-multi-level">
+                    <ul
+                        class="flex flex-col font-medium p-1 md:p-0 mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:hover:text-gray-700  md:bg-white">
+                        </li>
+                        <li>
+                            <a href="#home"
+                                class="nav-icon block py-1 px-3 text-gray-900 rounded  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0">Home</a>
+                        </li>
+                        <li>
+                            <a href="#main"
+                                class="nav-icon block py-1 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700  md:p-0 ">About</a>
+                        </li>
+                        <li>
+                            <a href="#services"
+                                class="nav-icon block py-1 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:hover:text-blue-700 md:p-0 ">Services</a>
+                        </li>
+                        <li>
+                            <a href="#departments"
+                                class="nav-icon  block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0">Departments</a>
+                        </li>
+                        <li>
+                            <a href="#contact"
+                                class="nav-icon block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+
+
+
     <!-- hero section -->
-    <section class="hero-section">
+    <section class="hero-section" id="home">
         <div class="container">
             <div class="hero-section-main-content">
                 <div class="hero-section-content">
@@ -146,7 +209,7 @@
 
 
     <!-- eductaion-section -->
-    <section class="education-section">
+    <section class="education-section" id="services">
         <div class="container">
             <div class="education-section-container">
                 <div class="education-section-container-content">
@@ -191,16 +254,8 @@
                             involves
                             the look
                             of
-                            a product
-                            — namely, the visual components and interactive elements that contribute to a strong user
-                            experience.
-                            Meanwhile, UX
-                            design focuses on the overarching feel of the product or service and the components that
-                            will
-                            lead
-                            to a
-                            meaningful,
-                            relevant experience for users.
+                            a product.
+
                         </p>
 
                     </div>
@@ -222,12 +277,7 @@
                             Responsible for
                             ensuring that the website or application operates efficiently, these professionals focus on
                             servers,
-                            databases, and
-                            application logic. Their tasks range from developing systems and processes, maintaining
-                            databases,
-                            fixing
-                            bugs, managing
-                            APIs, to enhancing security measures.
+                            databases.
                         </p>
 
                     </div>
@@ -249,13 +299,8 @@
                             various
                             industries and
                             locations. Whether that means working with a non-profit organization, starting your own
-                            freelance
-                            business,
-                            or
-                            being an
-                            in-house developer for a company, you’ll likely have the chance to find a role that fits
-                            your
-                            interests.
+                            freelance.
+
                         </p>
 
                     </div>
@@ -754,7 +799,7 @@
 
 
     <!--  Popular Departments-->
-    <div class="popular-departments">
+    <div class="popular-departments" id="departments">
         <div class="container">
 
 
@@ -809,7 +854,7 @@
         </div>
     </div>
 
-<!--  ./Popular Departments-->
+    <!--  ./Popular Departments-->
 
     <!-- FamousTeacherSecton -->
     <section class="famous-teacher">
@@ -929,7 +974,7 @@
 
     <!-- footer -->
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-content">
 
@@ -987,6 +1032,9 @@
     </footer>
 
     <!-- ./footer -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     <!-- scriptFiles -->
     <script src="script.js"></script>
