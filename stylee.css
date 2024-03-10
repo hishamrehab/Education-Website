@@ -249,17 +249,18 @@ html {
 }
 .main-section .main-section-content .card {
   width: 350px;
-  height: 530px;
+  height: 420px;
   margin: auto;
   margin-bottom: 20px;
 }
+
 .main-section .main-section-content .card .card-body {
   padding-top: 20px;
   padding-bottom: 40px;
 }
 
 .main-section .main-section-content .card .card-body .card-title {
-  font-size: 21px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 
